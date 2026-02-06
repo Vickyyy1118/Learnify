@@ -1,0 +1,601 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.login-login {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 231, 230, 1);
+}
+ 
+.login-shape {
+  top: -110px;
+  left: -100px;
+  width: 300px;
+  height: 263px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.login-ellipse2 {
+  top: 0px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.login-ellipse1 {
+  top: 63px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.login-notify {
+  top: 21px;
+  left: 26px;
+  width: 329px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.login-batterythreequarters {
+  top: 0px;
+  left: 308.2079162597656px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.login-wifi {
+  top: 0px;
+  left: 276.6039733886719px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.login-signal {
+  top: 0px;
+  left: 245px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.login-text1 {
+  top: 1px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.login-text2 {
+  top: 198px;
+  left: 38px;
+  color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 299px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.login-button {
+  top: 705px;
+  left: 46px;
+  width: 283px;
+  height: 61px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(12, 58, 214, 0.800000011920929);
+}
+ 
+.login-text3 {
+  color: rgba(255, 252, 252, 1);
+  width: 283px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.login-group21 {
+  top: 487px;
+  left: 38px;
+  width: 299px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.login-rectangle24 {
+  top: 0px;
+  left: 0px;
+  width: 299px;
+  height: 50px;
+  position: absolute;
+  border-radius: 100px;
+}
+ 
+.login-text4 {
+  top: 16px;
+  left: 15.84805679321289px;
+  color: rgba(0, 0, 0, 1);
+  width: 127px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.login-group31 {
+  top: 573px;
+  left: 38px;
+  width: 299px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.login-rectangle25 {
+  top: 0px;
+  left: 0px;
+  width: 299px;
+  height: 50px;
+  position: absolute;
+  border-radius: 100px;
+}
+ 
+.login-text5 {
+  top: 16px;
+  left: 15.84805679321289px;
+  color: rgba(0, 0, 0, 1);
+  width: 127px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.login-text6 {
+  top: 778px;
+  left: 77px;
+  color: rgba(0, 0, 0, 1);
+  width: 245px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.login-text7 {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+}
+ 
+.login-text9 {
+  top: 648px;
+  left: 101px;
+  color: rgba(14, 181, 171, 1);
+  width: 174px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.login-group5 {
+  top: 260px;
+  left: 102px;
+  width: 171.85984802246094px;
+  height: 169.9990692138672px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.login-path33 {
+  top: 0px;
+  left: 0px;
+  width: 85px;
+  height: 170px;
+  position: absolute;
+}
+ 
+.login-path34 {
+  top: 3.8525805473327637px;
+  left: 4.084990501403809px;
+  width: 77px;
+  height: 162px;
+  position: absolute;
+}
+ 
+.login-rectangle18 {
+  top: 31.41426658630371px;
+  left: 11.015753746032715px;
+  width: 63px;
+  height: 107px;
+  position: absolute;
+}
+ 
+.login-ellipse7 {
+  top: 146.16656494140625px;
+  left: 36.40253448486328px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+ 
+.login-group1 {
+  top: 38.66926193237305px;
+  left: 49.48379135131836px;
+  width: 38.021949768066406px;
+  height: 129.55841064453125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.login-path16 {
+  top: 111.38726043701172px;
+  left: 21.3294734954834px;
+  width: 4px;
+  height: 7px;
+  position: absolute;
+}
+ 
+.login-path17 {
+  top: 60.507423400878906px;
+  left: -0.0000017761485651135445px;
+  width: 35px;
+  height: 52px;
+  position: absolute;
+}
+ 
+.login-path18 {
+  top: 78.0839614868164px;
+  left: 5.37144660949707px;
+  width: 16px;
+  height: 8px;
+  position: absolute;
+}
+ 
+.login-path19 {
+  top: 115.88445281982422px;
+  left: 20.367238998413086px;
+  width: 8px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.login-path20 {
+  top: 77.01636505126953px;
+  left: 25.491994857788086px;
+  width: 7px;
+  height: 16px;
+  position: absolute;
+}
+ 
+.login-path21 {
+  top: 14.021819114685059px;
+  left: 19.01649284362793px;
+  width: 9px;
+  height: 12px;
+  position: absolute;
+}
+ 
+.login-path22 {
+  top: 19.376131057739258px;
+  left: 9.537572860717773px;
+  width: 26px;
+  height: 45px;
+  position: absolute;
+}
+ 
+.login-path23 {
+  top: 37.610687255859375px;
+  left: 7.422567367553711px;
+  width: 8px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.login-path24 {
+  top: 40.617881774902344px;
+  left: 10.921964645385742px;
+  width: 13px;
+  height: 9px;
+  position: absolute;
+}
+ 
+.login-path25 {
+  top: 37.61138153076172px;
+  left: 7.422822952270508px;
+  width: 16px;
+  height: 13px;
+  opacity: 0.10;
+  position: absolute;
+}
+ 
+.login-ellipse5 {
+  top: 5.4302544593811035px;
+  left: 17.762815475463867px;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.login-path26 {
+  top: -0.0000012753007467836142px;
+  left: 16.0266170501709px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.login-path27 {
+  top: 33.16180419921875px;
+  left: 12.77198600769043px;
+  width: 24px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.login-path28 {
+  top: 21.884870529174805px;
+  left: 28.96242332458496px;
+  width: 9px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.login-path29 {
+  top: 28.361318588256836px;
+  left: 7.106088638305664px;
+  width: 7px;
+  height: 11px;
+  position: absolute;
+}
+ 
+.login-group22 {
+  top: 31.408222198486328px;
+  left: 104.70519256591797px;
+  width: 67.15460205078125px;
+  height: 13.258676528930664px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.login-rectangle211 {
+  top: 0px;
+  left: 0px;
+  width: 67px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.login-path651 {
+  top: 1.4325815439224243px;
+  left: 1.4316655397415161px;
+  width: 64px;
+  height: 10px;
+  position: absolute;
+}
+ 
+.login-path67 {
+  top: 2.58301043510437px;
+  left: 3.099245309829712px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+ 
+.login-rectangle221 {
+  top: 4.9936394691467285px;
+  left: 16.53032112121582px;
+  width: 39px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.login-rectangle231 {
+  top: 7.232096195220947px;
+  left: 16.53032112121582px;
+  width: 39px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.login-group32 {
+  top: 50.328826904296875px;
+  left: 104.70519256591797px;
+  width: 67.15460205078125px;
+  height: 13.258659362792969px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.login-rectangle212 {
+  top: 0px;
+  left: 0px;
+  width: 67px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.login-path652 {
+  top: 1.4325777292251587px;
+  left: 1.4316655397415161px;
+  width: 64px;
+  height: 10px;
+  position: absolute;
+}
+ 
+.login-ellipse101 {
+  top: 2.58301043510437px;
+  left: 3.099245309829712px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+ 
+.login-rectangle222 {
+  top: 4.993635654449463px;
+  left: 16.53032112121582px;
+  width: 39px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.login-rectangle232 {
+  top: 7.232096195220947px;
+  left: 16.53032112121582px;
+  width: 39px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.login-group4 {
+  top: 69.2494125366211px;
+  left: 104.70519256591797px;
+  width: 67.15460205078125px;
+  height: 13.258689880371094px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.login-rectangle213 {
+  top: 0px;
+  left: 0px;
+  width: 67px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.login-path653 {
+  top: 1.4325815439224243px;
+  left: 1.4316655397415161px;
+  width: 64px;
+  height: 10px;
+  position: absolute;
+}
+ 
+.login-ellipse102 {
+  top: 2.58301043510437px;
+  left: 3.099245309829712px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+ 
+.login-rectangle223 {
+  top: 4.9936394691467285px;
+  left: 16.53032112121582px;
+  width: 39px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.login-rectangle233 {
+  top: 7.232096195220947px;
+  left: 16.53032112121582px;
+  width: 39px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.login-frame2 {
+  top: 440px;
+  left: 352px;
+  width: 23px;
+  height: 14px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.login-rectangle74 {
+  top: -41px;
+  left: -31px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}

@@ -1,0 +1,18 @@
+import React from 'react'
+
+import { Helmet } from 'react-helmet'
+
+import './frame1.css'
+
+const Frame1 = (props) => {
+  return (
+    <div className="frame1-container">
+      <Helmet>
+        <title>exported project</title>
+      </Helmet>
+      <div className="frame1-frame1"></div>
+    </div>
+  )
+}
+
+export default Frame1

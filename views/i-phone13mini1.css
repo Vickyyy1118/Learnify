@@ -1,0 +1,384 @@
+.i-phone13mini1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.i-phone13mini1i-phone13mini1 {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(140, 222, 207, 0.07000000029802322);
+}
+ 
+.i-phone13mini1-ellipse14 {
+  top: 711px;
+  left: -36px;
+  width: 465px;
+  height: 160px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-ellipse13 {
+  top: 751px;
+  left: 4px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.i-phone13mini1sw-miconsduotonebookmark {
+  top: 743px;
+  left: 111px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.i-phone13mini1sw-miconsoutlinebell {
+  top: 751px;
+  left: 229px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.i-phone13mini1sw-miconsduotonedocumentcheck {
+  top: 748px;
+  left: 276px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.i-phone13mini1sw-miconsduotonesettings {
+  top: 757px;
+  left: 323px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.i-phone13mini1sw-miconsduotonedocumentfilled {
+  top: 751px;
+  left: 59px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.i-phone13mini1sw-miconsduotonehome1 {
+  top: 739px;
+  left: 169px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-text1 {
+  top: 784px;
+  left: 12.21910572052002px;
+  color: rgba(255, 255, 255, 1);
+  width: 417px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.i-phone13mini1-rectangle25 {
+  top: 65px;
+  left: 38px;
+  width: 299px;
+  height: 37px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.i-phone13mini1-search {
+  top: 72px;
+  left: 55px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-rectangle27 {
+  top: 243px;
+  left: 23px;
+  width: 324px;
+  height: 38px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.i-phone13mini1-rectangle28 {
+  top: 329px;
+  left: 22px;
+  width: 334px;
+  height: 41px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.i-phone13mini1-rectangle29 {
+  top: 165px;
+  left: 18px;
+  width: 329px;
+  height: 39px;
+  position: absolute;
+  border-radius: 15px;
+}
+ 
+.i-phone13mini1-image4 {
+  top: 158px;
+  left: 20px;
+  width: 48px;
+  height: 52px;
+  position: absolute;
+  border-radius: 20px;
+}
+ 
+.i-phone13mini1-text2 {
+  top: 170px;
+  left: 83px;
+  color: rgba(0, 0, 0, 1);
+  width: 193px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.i-phone13mini1-image5 {
+  top: 236px;
+  left: 26px;
+  width: 37px;
+  height: 51px;
+  position: absolute;
+  border-radius: 20px;
+}
+ 
+.i-phone13mini1-text3 {
+  top: 250px;
+  left: 88px;
+  color: rgba(0, 0, 0, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.i-phone13mini1-image6 {
+  top: 329px;
+  left: 20px;
+  width: 39px;
+  height: 42px;
+  position: absolute;
+  border-radius: 20px;
+}
+ 
+.i-phone13mini1-text4 {
+  top: 344px;
+  left: 85px;
+  color: rgba(0, 0, 0, 1);
+  width: 167px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.i-phone13mini1-image71 {
+  top: 165px;
+  left: 297px;
+  width: 44px;
+  height: 42px;
+  position: absolute;
+  border-radius: 40px;
+}
+ 
+.i-phone13mini1-image8 {
+  top: 329px;
+  left: 297px;
+  width: 41px;
+  height: 45px;
+  position: absolute;
+  border-radius: 40px;
+}
+ 
+.i-phone13mini1-image72 {
+  top: 243px;
+  left: 295px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-radius: 40px;
+}
+ 
+.i-phone13mini1-image9 {
+  top: 182px;
+  left: 174px;
+  width: 13px;
+  height: 11px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.i-phone13mini1-image10 {
+  top: 343px;
+  left: 185px;
+  width: 13px;
+  height: 11px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.i-phone13mini1-image11 {
+  top: 257px;
+  left: 152px;
+  width: 11px;
+  height: 13px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.i-phone13mini1-image12 {
+  top: 390px;
+  left: 20px;
+  width: 336px;
+  height: 113px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-text5 {
+  top: 478px;
+  left: 220px;
+  color: rgba(0, 0, 0, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.i-phone13mini1-image13 {
+  top: 505px;
+  left: 18px;
+  width: 338px;
+  height: 116px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-text6 {
+  top: 77px;
+  left: 101px;
+  color: rgba(0, 0, 0, 1);
+  width: 175px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.i-phone13mini1-image14 {
+  top: 624px;
+  left: 20px;
+  width: 336px;
+  height: 84px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-notify {
+  top: 17px;
+  left: 23px;
+  width: 329px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.i-phone13mini1-batterythreequarters {
+  top: 0px;
+  left: 308.2079162597656px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-wifi {
+  top: 0px;
+  left: 276.6039733886719px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-signal {
+  top: 0px;
+  left: 245px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.i-phone13mini1-text7 {
+  top: 1px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

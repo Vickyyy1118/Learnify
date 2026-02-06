@@ -1,0 +1,636 @@
+.coursepage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.coursepage-coursepage {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 231, 230, 1);
+}
+ 
+.coursepage-rectangle24 {
+  top: -64px;
+  left: 0px;
+  width: 375px;
+  height: 165px;
+  position: absolute;
+  border-radius: 30px;
+}
+ 
+.coursepage-notify {
+  top: 11px;
+  left: 29px;
+  width: 329px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.coursepage-batterythreequarters {
+  top: 0px;
+  left: 308.2079162597656px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.coursepage-wifi {
+  top: 0px;
+  left: 276.6039733886719px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.coursepage-signal {
+  top: 0px;
+  left: 245px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.coursepage-text10 {
+  top: 1px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-ellipse14 {
+  top: 739px;
+  left: -24px;
+  width: 423px;
+  height: 103px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.coursepage-text11 {
+  top: 800px;
+  left: 115px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-text12 {
+  top: 800px;
+  left: 225px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-ellipse13 {
+  top: 762px;
+  left: 2px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+ 
+.coursepage-text13 {
+  top: 800px;
+  left: 66px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-text14 {
+  top: 800px;
+  left: 10px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-sw-miconsoutlinebell {
+  top: 758px;
+  left: 227px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.coursepage-sw-miconsduotonehome1 {
+  top: 761px;
+  left: 60px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.coursepage-sw-miconsduotonedocumentcheck {
+  top: 761px;
+  left: 279px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.coursepage-text15 {
+  top: 800px;
+  left: 289px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-sw-miconsduotonesettings {
+  top: 762px;
+  left: 321px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.coursepage-text16 {
+  top: 800px;
+  left: 326px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-sw-miconsduotonebookmark1 {
+  top: 760px;
+  left: 112px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.coursepage-text17 {
+  top: 60px;
+  left: 122px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-sw-miconsduotonebookmark2 {
+  top: 56px;
+  left: 329px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.coursepage-rectangle42 {
+  top: 116px;
+  left: 15px;
+  width: 345px;
+  height: 233px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+}
+ 
+.coursepage-rectangle43 {
+  top: 334px;
+  left: 14px;
+  width: 348px;
+  height: 38px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+ 
+.coursepage-playbutton1 {
+  top: 338px;
+  left: 22px;
+  width: 35px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.coursepage-ellipse151 {
+  top: 0px;
+  left: 0px;
+  width: 35px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.coursepage-sw-miconsduotoneplay {
+  top: 6.054054260253906px;
+  left: 6.9189133644104px;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+}
+ 
+.coursepage-text18 {
+  top: 338px;
+  left: 79px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-component1 {
+  top: 338px;
+  left: 243px;
+  width: 35px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.coursepage-ellipse16 {
+  top: 0px;
+  left: 0px;
+  width: 35px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.coursepage-sw-miconsduotonespeaker2 {
+  top: 7.024380683898926px;
+  left: 8.044185638427734px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+}
+ 
+.coursepage-sw-miconsduotonefullscreen1 {
+  top: 258px;
+  left: 268px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+ 
+.coursepage-component2 {
+  top: 338px;
+  left: 302px;
+  width: 35px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.coursepage-ellipse17 {
+  top: 0px;
+  left: 0px;
+  width: 35px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.coursepage-sw-miconsduotonefullscreen2 {
+  top: 9.762711524963379px;
+  left: 10.316315650939941px;
+  width: 15px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.coursepage-rectangle44 {
+  top: 399px;
+  left: 11px;
+  width: 345px;
+  height: 51px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+}
+ 
+.coursepage-rectangle48 {
+  top: 399px;
+  left: 183px;
+  width: 172px;
+  height: 51px;
+  position: absolute;
+}
+ 
+.coursepage-rectangle46 {
+  top: 462px;
+  left: 9px;
+  width: 345px;
+  height: 153px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+ 
+.coursepage-playbutton2 {
+  top: 440px;
+  left: 524px;
+  width: 35px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.coursepage-ellipse152 {
+  top: 0px;
+  left: 0px;
+  width: 35px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.coursepage-sw-miconsduotonearrowleft {
+  top: 64px;
+  left: 14px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+ 
+.coursepage-text19 {
+  top: 615px;
+  left: 16px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-rectangle341 {
+  top: 652px;
+  left: 23px;
+  width: 133px;
+  height: 43px;
+  position: absolute;
+  border-radius: 20px;
+}
+ 
+.coursepage-nodejs {
+  top: 662px;
+  left: 32px;
+  width: 26px;
+  height: 24px;
+  position: absolute;
+}
+ 
+.coursepage-text20 {
+  top: 666px;
+  left: 78px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-rectangle342 {
+  top: 652px;
+  left: 193px;
+  width: 133px;
+  height: 43px;
+  position: absolute;
+  border-radius: 20px;
+}
+ 
+.coursepage-group {
+  top: 663px;
+  left: 206px;
+  width: 25px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.coursepage-vector1 {
+  top: 11.733288764953613px;
+  left: 0px;
+  width: 25px;
+  height: 10px;
+  position: absolute;
+}
+ 
+.coursepage-vector2 {
+  top: 0px;
+  left: 3.3333396911621094px;
+  width: 7px;
+  height: 6px;
+  position: absolute;
+}
+ 
+.coursepage-vector3 {
+  top: 0px;
+  left: 3.3333396911621094px;
+  width: 17px;
+  height: 10px;
+  position: absolute;
+}
+ 
+.coursepage-vector4 {
+  top: 13.199999809265137px;
+  left: 3.3333396911621094px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}
+ 
+.coursepage-text21 {
+  top: 666px;
+  left: 251px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-sw-miconsduotonedocumentfilled {
+  top: 744px;
+  left: 169px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.coursepage-text22 {
+  top: 781px;
+  left: 171px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-text23 {
+  top: 408px;
+  left: 231px;
+  color: rgba(0, 0, 0, 0.7099999785423279);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-text24 {
+  top: 506px;
+  left: 95px;
+  color: rgba(0, 0, 0, 1);
+  width: 207px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.coursepage-text25 {
+  top: 461px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 284px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
